@@ -31,7 +31,10 @@ Highlevel features:
 - conv5, idlayer = 4
 - conv7, idlayer = 6
 
-# Acknowledgments
+#### The temporal resolution
+    
+    In order to find the  the temporal resolution $$\frac{1}{m}$$, for each layer, the slope and the interception are calculated, which describes the relationship between the time in seconds and the number of channels of the `extract_feature_vector` method.
+# Acknowledgments 
 Mode for soundnet tensorflow model is ported from [soundnet_tensorflow](https://github.com/eborboihuc/SoundNet-tensorflow). Thanks for his works!
 
 
