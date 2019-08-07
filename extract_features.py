@@ -7,7 +7,7 @@ import argparse
 
 #load with soundfile
 import soundfile as sf
-
+import time
 import matplotlib.pyplot as plt 
 import numpy as np 
 #add relative
