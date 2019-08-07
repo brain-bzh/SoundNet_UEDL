@@ -15,7 +15,7 @@ The code is for converting the pretrained [tensorflow soundnet model](https://gi
 # How to use
 1. If the file *sound8.pth* has not been generated yet, follow the original instructions : [model](https://github.com/smallflyingpig/SoundNet_Pytorch.git) 
 
-2. If audio preprocessing is required (ex : the sample rate is not 22.050 Hz),[utils.py](.../master/utils.py) has a method for converting the indicated folder.
+2. If audio preprocessing is required (ex : the sample rate is not 22.050 Hz),[utils.py](../master/utils.py) has a method for converting the indicated folder.
 
     > To convert a file:  `sox input.wav -r 22050 -c 1 ouput.wav` 
 3. To extract a features vector use:
