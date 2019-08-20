@@ -66,6 +66,16 @@ def extract_vector(features,layer):
     print("Cout : ",C)
     return (features[layer].reshape(C,-1).T)
 
+def get_values():
+        to_time = {}
+        with open('./soundnet/relation_layer_seconds.txt', 'r') as reader:
+            for i in reader:
+                key,m,b = i.split()
+                if key != 'name_layer':
+                    to_time[key] = [float(m),float(b)]
+        return to_time
+
+
 def main(args):        
     input_data,sr = load_audio(args.input_param_path)
     print("extrach features using pytorch model...")
