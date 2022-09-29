@@ -6,7 +6,7 @@
 # Introduction
 This repository serves as a support for the course project on the Soundnet paper, in the context of the "Deep Learning UE" at IMT Atlantique. 
 
-The code includes: 
+The repository includes: 
 - the definition of the pytorch model
 - the weights of the model
 - a few useful functions to perform an inference on sounds and to extract features from the internal layers (see examples below)
