@@ -78,6 +78,8 @@ SoundNet predicts objects from the [Imagenet LSVRC 2012 Classification Challenge
     print((features[4].shape))
 ```
 
+Note that the model works on Batches of sounds of the same duration ; in all examples above we have used a batch of size 1 but you can load sets of sounds for batch processing.
+
 # Possible tasks for the project 
 1. Supervised learning on a small dataset (e.g. [ESC10 / ESC50](https://github.com/karolpiczak/ESC-50) or another small dataset such as [GTZAN Music Genre Classification](https://pytorch.org/audio/stable/datasets.html#gtzan) by extracting feature vectors from the internal layers.
 2. Study the sensitivity of various units to different sound types.
