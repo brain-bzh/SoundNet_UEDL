@@ -10,6 +10,7 @@ The repository includes:
 - the definition of the pytorch model
 - the weights of the model
 - a few useful functions to perform an inference on sounds and to extract features from the internal layers (see examples below)
+- Examples of possible tasks to reproduce for the project
 
 # Prerequisites
 1. python 3.6 with numpy
