@@ -19,7 +19,7 @@ The repository includes:
 
 
 # How to use
-1. First load your audio files. Note that they have to be resampled to 22050 Hz which is the frequency at which SoundNet was trained. To load audio, you can directly use [`torchaudio.load()`](https://pytorch.org/audio/stable/tutorials/audio_io_tutorial.html#loading-audio-data) and you can then resample with [`torchaudio.transforms.Resample`](https://pytorch.org/audio/stable/transforms.html#resample). See [torchaudio documentation](https://pytorch.org/audio/stable/index.html) for details. 
+1. Load an audio file. File can be of any format supported by torchaudio, but note that you may to resample to 22050 Hz which is the frequency at which SoundNet was trained. To load audio, you can directly use [`torchaudio.load()`](https://pytorch.org/audio/stable/tutorials/audio_io_tutorial.html#loading-audio-data) and you can then resample with [`torchaudio.transforms.Resample`](https://pytorch.org/audio/stable/transforms.html#resample). See [torchaudio documentation](https://pytorch.org/audio/stable/index.html) for details on supported file formats and other technicalities related to audio. 
 
 ```python
     from torchaudio import load
@@ -38,7 +38,7 @@ The repository includes:
     
 ```
 
-2. To perform an inference
+2. Perform inference
    
 SoundNet predicts objects from the [Imagenet LSVRC 2012 Classification Challenge](https://www.image-net.org/challenges/LSVRC/2012/index.php) (1000 categories) and the [Places365 dataset](http://places2.csail.mit.edu/) (401 places).
 
@@ -67,7 +67,7 @@ SoundNet predicts objects from the [Imagenet LSVRC 2012 Classification Challenge
     print(vector_to_scenes(scene_pred.detach().numpy()))
 ```
 
-1. To extract features vectors from the internal SoundNet layers
+3. Extract features vectors from the internal SoundNet layers
 ```python    
     # Extract internal features
     features = model.extract_feat(X)
