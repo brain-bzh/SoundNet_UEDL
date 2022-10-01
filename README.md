@@ -1,4 +1,4 @@
-# SoundNet_Pytorch
+# SoundNet - Course Projet UE "Deep Learning" at IMT Atlantique
 [Soundnet (Aytar et al. 2016)](http://soundnet.csail.mit.edu/) - UE Deep Learning IMT Atlantique
 
 ![from soundnet](https://camo.githubusercontent.com/0b88af5c13ba987a17dcf90cd58816cf8ef04554/687474703a2f2f70726f6a656374732e637361696c2e6d69742e6564752f736f756e646e65742f736f756e646e65742e6a7067)
