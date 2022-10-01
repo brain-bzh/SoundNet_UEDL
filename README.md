@@ -90,7 +90,7 @@ Note that the model works on Batches of sounds of the same duration ; in all exa
 Don't hesitate to ask to confirm the steps needed to perform those tasks. 
 
 # Acknowledgments 
-Mode for soundnet tensorflow model is ported from [soundnet_tensorflow](https://github.com/eborboihuc/SoundNet-tensorflow). Thanks for his works!
+Based on a tensorflow-ported model from [soundnet_tensorflow](https://github.com/eborboihuc/SoundNet-tensorflow). Thanks for his works!
 
 
 # reference
